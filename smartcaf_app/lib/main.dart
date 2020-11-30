@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My pets App',
+      title: 'SMARTCAF APP',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.orange,
+        visualDensity: VisualDensity.compact,
       ),
       home: LoginPage(),
     );

@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Pet app",
+      title: "SMARCTCAF APP",
       debugShowCheckedModeBanner: false,
       home: HomePage(),
       theme: ThemeData(accentColor: Colors.white70),
@@ -24,15 +24,13 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   PageController _pageController = PageController();
-  final _screens = [
-    listaMascotas(title: "Lista mascotas")
-  ];
+  final _screens = [listaMascotas(title: "Lista mascotas")];
   int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pet App", style: TextStyle(color: Colors.white)),
+        title: Text("SMARCTCAF APP", style: TextStyle(color: Colors.white)),
         actions: <Widget>[
           FlatButton(
             onPressed: () {
@@ -59,7 +57,7 @@ class _HomePageState extends State<HomePage> {
               icon: Icon(Icons.list),
               title: Text("Mascotas"),
               backgroundColor: Colors.blue),
-         /* BottomNavigationBarItem(
+          /* BottomNavigationBarItem(
               icon: Icon(Icons.qr_code),
               title: Text(""),
               backgroundColor: Colors.blue),
